@@ -11,7 +11,7 @@ mat = np.zeros((20, 10, 3))
 
 for i in range(20):
     for j in range(10):
-        pixel = img[40 + 9 * i, 97 + 9 * j]        
+        pixel = img[40 + 8 * i, 97 + 8 * j]        
         mat[i,j] = pixel
         # if :
         #     mat[i, j] = 1
